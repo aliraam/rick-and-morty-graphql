@@ -4,7 +4,7 @@ installation Guid:
 
 ---------------------
 
-after clone from github follow blew steps:  
+After clone from GitHub, follow the below steps:
 
 1.  cd rick and morty dirctory
     
