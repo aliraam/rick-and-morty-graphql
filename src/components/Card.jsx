@@ -2,7 +2,6 @@ import React from "react";
 import { makeStyles } from "@mui/styles";
 import { Grid, Box, Typography } from "@mui/material";
 
-
 const useStyles = makeStyles(() => ({
   container: {
     marginTop: "0.75rem",
@@ -33,7 +32,6 @@ const useStyles = makeStyles(() => ({
     maxWidth: "90%",
   },
 }));
-
 
 const CharacterCard = (props, ref) => {
   const { id, name, status, species, gender, image, origin } = props;
