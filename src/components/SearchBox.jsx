@@ -8,7 +8,7 @@ import {useLazyQuery } from "@apollo/client";
 import Loading from './Loading'
 export default function SearchBar() {
   const [searchTerm, setSearchTerm] = useState("");
-  const { characters, setCharacters } = useContext(CharacterContext);
+  const { characters, setCharacters ,setShowMore } = useContext(CharacterContext);
 
   const [name, setName] = useState('')
 
@@ -18,6 +18,7 @@ if (loading) return <Loading />;
 if (error) return <p>Error : {error.message}</p>;
 if (data) {
     setCharacters(data.characters.results)
+    setShowMore(false)
   }
 
   const handleChange = (event) => {

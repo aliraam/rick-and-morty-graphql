@@ -4,7 +4,7 @@ import Card from "./Card";
 import CharacterContext from "../Context/character";
 
 export default function CardList() {
-  const { characters, setCharacters, fetchMore } = useContext(CharacterContext);
+  const { characters, setCharacters, fetchMore,showMore } = useContext(CharacterContext);
   const [pageNumber, setPageNumber] = useState(1);
 
   return (
@@ -40,6 +40,8 @@ export default function CardList() {
               />
             )
           )}
+          {
+            showMore?
           <button
             type="button"
             className="loadMore"
@@ -61,7 +63,9 @@ export default function CardList() {
             }}
           >
             Get More Characters
-          </button>
+          </button>:
+          <></>
+          }
         </Grid>
       </Box>
     </Grid>
