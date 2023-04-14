@@ -1,4 +1,4 @@
-# rick-and-morty-graphql
+# rick and morty graphql
 graphql rick and morty react application 
 installation Guid:  
 
