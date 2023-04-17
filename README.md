@@ -14,4 +14,4 @@ After clone from GitHub, follow the below steps:
 3.  yarn run dev
     
 
-**online demo available on: [https://alipirani.iran.liara.run/](https://alipirani.iran.liara.run/)**
+**online demo available on: [https://rick-and-morty-graphql-ten.vercel.app/](https://rick-and-morty-graphql-ten.vercel.app/)**
